@@ -15,8 +15,8 @@ export class Item {
 export class MallInventory {
   constructor(public items = [] as Array<Item>) {}
 
-  public updateQuality() {
-    const updatedItem = this.items.map((item) => {
+  public updateQuality(): Item[] {
+    const updatedItems = this.items.map((item) => {
       if (this.isException(item.name)) return item;
 
       item.sellIn--;
@@ -35,13 +35,13 @@ export class MallInventory {
   
       return item;
     });
-    return updatedItem;
+    return updatedItems;
   }
 
   isException(itemName: string): boolean {
     return itemName === "Millenary Honey";
   }
-  validateQuality(item: Item) {
+  validateQuality(item: Item): void {
     if (item.quality > 50) item.quality = 50;
     if (item.quality < 0) item.quality = 0;
   }
