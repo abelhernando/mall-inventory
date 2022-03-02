@@ -1,4 +1,4 @@
-# Welcome to team VeryChic Mall Inventory!
+# Welcome to team Nice Mall Inventory!
 
 We do business just with the finest goods on the market. Unfortunately, our goods’ quality is constantly degrading as their sell in date approaches. 
 
@@ -28,7 +28,7 @@ Feel free to make any changes to the UpdateQuality method, add any new code and 
 Just for clarification, an item can never have its Quality value above 50, however "Millenary Honey" is a very special item and as such its Quality is 80 and it never alters.  
 
 ### App running and testing
-You have two available commands to run the VeryChic Mall Inventory:   
+You have two available commands to run the Nice Mall Inventory:   
 `yarn test` and `yarn run-app`
 
 Use them to see the expected behaviour and test the application. 

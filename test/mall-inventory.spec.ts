@@ -1,6 +1,6 @@
 import { Item, MallInventory } from '~/app/mall-inventory';
 
-describe('VeryChick Mall Inventory', () => {
+describe('Nicek Mall Inventory', () => {
     describe('with one normal item', () => {
         let mallInventory: MallInventory;
 

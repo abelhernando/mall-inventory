@@ -1,7 +1,7 @@
 {
-  "name": "verychic-mall-inventory",
-  "description": "VeryChic Mall Inventory test.",
-  "author": "VeryChic",
+  "name": "nice-mall-inventory",
+  "description": "Nice Mall Inventory test.",
+  "author": "Nice",
   "license": "UNLICENSED",
   "scripts": {
     "test": "jest",
